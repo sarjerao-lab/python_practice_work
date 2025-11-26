@@ -4,9 +4,9 @@
 #Vowels = 3
 #Consonants = 7
 
-str = "Hello World"
+str = "Hello World U"
 
-vowels = "aeiou"
+vowels = "aeiouAEIOU"
 Vowels = 0
 Consonants = 0
 
