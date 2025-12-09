@@ -4,6 +4,9 @@
 
 str = "Python programming language"
 
+str_count = {word : len(word) for word in str.split()}
+print(str_count.get())
+
 str_lst = str.split()
 longest_string =''
 

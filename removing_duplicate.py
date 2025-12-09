@@ -10,3 +10,8 @@ for elm in lst:
         unique_lst.append(elm)
 
 print(unique_lst)
+
+dup_lst = [elm for elm in lst if lst.count(elm) > 1]
+print(dup_lst)
+unq_lst  = [elm for elm in lst if lst.count(elm) == 1]
+print(unique_lst)

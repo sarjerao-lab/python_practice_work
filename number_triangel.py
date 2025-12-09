@@ -11,6 +11,6 @@ def inverted_trangle(num):
         for j in range(1,num+1):
             print(f"{j} ", end="")    
         print(" ")
-        num = num -1
+        num = num - 1
 num = int(input("Enter num:"))
 inverted_trangle(num)
